@@ -1,0 +1,72 @@
+@media (max-width: 479px)
+{
+    /*---------------
+	    Main styles
+	---------------*/
+
+
+    /*---------------
+		Header
+	---------------*/
+    .main-section .text{
+        min-height: 89px;
+    }
+    .main-section .text .title{
+        font-size: 42px;
+    }
+    .main-section .text .subtitle{
+        font-size: 20px;
+    }
+
+    /*---------------
+		Main section
+	---------------*/
+    .second-section .flex .info-top{
+        flex-direction: column;
+    }
+    .second-section .flex .info-top .thumb{
+        margin-right: 0;
+    }
+    .second-section .flex .info-top .title{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .third-section{
+        padding-bottom: 50px;
+    }
+
+    .contact-section{
+        padding-top: 50px;
+    }
+    .contact-section .bng9{
+        display: none;
+    }
+    .contact-section .box-bg-inner {
+        padding: 10px 15px 20px;
+        border-radius: 20px;
+    }
+
+
+    /*---------------
+		Footer
+	---------------*/
+    footer{
+        padding: 15px 0;
+    }
+    footer .links a + a{
+        margin-left: 20px;
+    }
+    footer .links a{
+        margin: 5px 20px;
+    }
+
+
+    /*---------------
+		PopUp
+	---------------*/
+    .modal_title{
+        font-size: 30px;
+    }
+
+}

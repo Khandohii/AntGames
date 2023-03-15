@@ -1,0 +1,102 @@
+@media (max-width: 1023px)
+{
+    /*---------------
+	    Main styles
+	---------------*/
+    .bng.bng1,
+    .bng.bng2,
+    .bng.bng3,
+    .bng.bng4,
+    .bng.bng5,
+    .bng.bng6,
+    .bng.bng7,
+    .bng.bng8{
+        display: none;
+    }
+
+    .app-links{
+        justify-content: center;
+    }
+
+
+    /*---------------
+		Header
+	---------------*/
+    header .menu ul li+li{
+        margin-left: 40px;
+    }
+
+
+    /*---------------
+		Main section
+	---------------*/
+    .main-section{
+        padding: 90px 0 150px;
+        min-height: 100vh;
+    }
+    .main-section .text{
+        margin-top: 30px;
+    }
+    .main-section .link_bottom{
+        bottom: 40px;
+    }
+
+    .second-section{
+        padding: 50px 0;
+    }
+    .second-section .wave{
+        display: none;
+    }
+    .second-section .flex{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: flex-start;
+    }
+    .second-section .flex .img{
+        margin-right: 0;
+        max-width: 100%;
+        order: 2;
+        margin-top: 30px;
+    }
+    .second-section .flex .info{
+        width: 100%;
+        text-align: center;
+    }
+    .second-section .flex .info-top{
+        justify-content: center;
+    }
+
+    .third-section{
+        padding-top: 30px;
+        padding-bottom: 485px;
+    }
+
+    /*---------------
+		Footer
+	---------------*/
+    footer{
+        padding: 30px 0;
+        text-align: center;
+    }
+    footer .flex{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    footer .links{
+        order: -1;
+        margin-left: 0;
+    }
+    footer .copytext{
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+
+    /*---------------
+		PopUp
+	---------------*/
+    .modal{
+        padding: 50px;
+    }
+}

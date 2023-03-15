@@ -1,0 +1,135 @@
+@media (max-width: 767px)
+{
+    /*---------------
+	    Main styles
+	---------------*/
+    .socials__item{
+        width: 75px;
+    }
+    .socials__item a{
+        height: 75px;
+    }
+
+    .form .line_flex .line_form{
+        width: 100%;
+    }
+
+    .mob_menu_link{
+        display: block;
+    }
+
+
+    /*---------------
+		Header
+	---------------*/
+    header{
+        z-index: 995;
+    }
+    header .menu{
+        position: fixed;
+        top: 0;
+        right: 100%;
+        z-index: 999;
+        overflow-y: auto;
+        width: 100%;
+        height: 100%;
+        padding: 20px 15px;
+        background: #009ddc;
+        transition: .3s linear;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    header .menu.show{
+        right: 0;
+    }
+    header .menu ul{}
+    header .menu ul li{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    header .menu ul li + li{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    header .menu ul li a{
+    }
+    header .mail{
+        margin-top: -8px;
+    }
+    header .menu .mail{
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+
+    /*---------------
+		Main section
+	---------------*/
+    .main-section{
+        padding: 90px 0 100px;
+    }
+    .main-section .text{
+        min-height: 116px;
+    }
+    .main-section .text .title{
+        font-size: 60px;
+        line-height: normal;
+    }
+    .main-section .link_bottom{
+        bottom: 20px;
+    }
+
+    .third-section{
+        padding-bottom: 160px;
+    }
+
+    .contact-section{
+        padding-top: 160px;
+        padding-bottom: 50px;
+    }
+    .contact-section .wave{
+        display: none;
+    }
+    .contact-section .bng9{
+        width: 400px;
+        height: auto;
+        top: -300px;
+        margin-left: 0;
+    }
+    .contact-section .box-bg-inner{
+        padding: 20px 32px 40px;
+    }
+    .contact-section .socials-wrap{
+        margin-top: 50px;
+    }
+
+
+    /*---------------
+		Footer
+	---------------*/
+
+
+    /*---------------
+		PopUp
+	---------------*/
+    .modal{
+        padding: 40px 30px 30px;
+    }
+    .modal_title{
+        font-size: 34px;
+    }
+    .modal_text {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+}
