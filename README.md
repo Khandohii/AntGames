@@ -18,3 +18,5 @@ Responsive HTML-layout landing page.
 :white_check_mark: Transition by scroll
 
 :white_check_mark: Typed text animation
+
+:white_check_mark: Pop-up windows "Privacy Policy" and "Terms and conditions"
